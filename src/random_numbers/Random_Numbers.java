@@ -15,7 +15,15 @@ public class Random_Numbers {
 		entrada.close();
 		
 	}
-
+/**
+ * Metodo que genera una cadena de caracteres aleatorios con el tamaño del numero 
+ * que le pasemos al parametro
+ * Ej:
+ * Introduzca numero -->8
+ * SU74HP1X
+ * @param number
+ * @return contraseña aleatoria con nombres y numeros
+ */
 	public static String randomNumber(int number) {
 		
 		String caracteres="ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
