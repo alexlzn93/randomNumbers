@@ -22,14 +22,14 @@ public class Random_Numbers {
  * Introduzca numero -->8
  * SU74HP1X
  * @param number
- * @return contraseña aleatoria con nombres y numeros
+ * @return contraseña aleatoria con letras y numeros
  */
 	public static String randomNumber(int number) {
 		
-		String caracteres="ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789";
+		String caracteres="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789";
 		StringBuilder sb= new StringBuilder();
 		while(number--!=0) {
-			System.out.println(number);
+			
 			int caracter= (int) (Math.random()* caracteres.length());
 			sb.append(caracteres.charAt(caracter));
 		
